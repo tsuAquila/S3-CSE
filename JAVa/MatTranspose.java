@@ -6,7 +6,7 @@ class MatTranspose {
 
 		System.out.print("Enter number of rows of matrix: ");
 		int r = s.nextInt();
-		System.out.print("\nEnter number of columns of matrix: ");
+		System.out.print("Enter number of columns of matrix: ");
 		int c = s.nextInt();
 		int mat[][] = new int[r][c];
 		int transpose[][] = new int[c][r];
@@ -17,15 +17,7 @@ class MatTranspose {
 			}
 		}
 
-		System.out.println("Entered Matrix is:\n");
-		for (int i = 0; i < r; i++) {
-			for (int j = 0; j < c; j++) {
-				System.out.print(mat[i][j] + "\t");
-			}
-			System.out.print("\n");
-		}
-
-		System.out.println("\nTranspose Matrix is:\n");
+		System.out.println("\nTranspose Matrix is:");
 		for (int i = 0; i < c; i++) {
 			for (int j = 0; j < r; j++) {
 				System.out.print(transpose[i][j] + "\t");

@@ -6,7 +6,7 @@ class MatMultiplication {
 
 		System.out.print("Enter number of rows of first matrix: ");
 		int r1 = s.nextInt();
-		System.out.print("\nEnter number of columns of first matrix: ");
+		System.out.print("Enter number of columns of first matrix: ");
 		int c1 = s.nextInt();
 		int A[][] = new int[r1][c1];
 		System.out.println("\nEnter elements:");
@@ -16,9 +16,9 @@ class MatMultiplication {
 			}
 		}
 
-		System.out.print("Enter number of rows of second matrix: ");
+		System.out.print("\nEnter number of rows of second matrix: ");
 		int r2 = s.nextInt();
-		System.out.print("\nEnter number of columns of second matrix: ");
+		System.out.print("Enter number of columns of second matrix: ");
 		int c2 = s.nextInt();
 		int B[][] = new int[r2][c2];
 		System.out.println("\nEnter elements:");
