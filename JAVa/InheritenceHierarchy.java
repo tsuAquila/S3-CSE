@@ -49,7 +49,7 @@ class Manager extends Employee {
 	}
 }
 
-class Program1 {
+class InheritenceHierarchy {
 	public static void main(String args[]) {
 
 		Officer o1 = new Officer();

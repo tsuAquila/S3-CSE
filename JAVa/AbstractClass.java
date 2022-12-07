@@ -20,7 +20,7 @@ class Hexagon extends Shape {
 	}
 }
 
-class Program2 {
+class AbstractClass {
 	public static void main(String[] args) {
 		Rectangle r = new Rectangle();
 		Triangle t = new Triangle();

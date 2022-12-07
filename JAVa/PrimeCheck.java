@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Program3 {
+class PrimeCheck {
 	public static void main(String[] args) {
 
 		int flag = 0;

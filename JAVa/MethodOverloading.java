@@ -15,7 +15,7 @@ class Area {
 	}
 }
 
-class Program4 {
+class MethodOverloading {
 
 	public static void main(String[] args) {
 
@@ -35,7 +35,6 @@ class Program4 {
 		int h = sc.nextInt();
 		float b = sc.nextFloat();
 		a.area(h, b);
-		
 		sc.close();
 	}
 }
