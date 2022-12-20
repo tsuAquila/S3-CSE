@@ -12,7 +12,7 @@ class FreqCheck {
 			if (s.charAt(i) == x)
 				count++;
 		}
-		System.out.println(x + " is present in " + s + " " + count + " times.");
+		System.out.println(x + " is present in '" + s + "' " + count + " times.");
 		sc.close();
 	}
 }
